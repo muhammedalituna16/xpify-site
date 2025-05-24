@@ -38,17 +38,23 @@ body {
   flex: 1;
   padding: 20px;
   text-align: center;
-  margin-right: 30px;
+  margin-bottom: 40px;
 }
 
-.text-content h1 {
-  font-family: 'Dela Gothic One', cursive;
-  font-size: 80px;
-  font-weight: 800;
-  margin-bottom: 30px;
-  color: white;
-  text-align: center;
+
+.text-content img {
+  max-width: 240px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -40px; /* azaltıldı */
 }
+
+.text-content .cta-button {
+  margin-top: 0px; /* varsayılan varsa sıfırla */
+}
+
+
 
 .cta-button {
   background-color: white;
@@ -220,11 +226,6 @@ img {
 
   .text-content p {
     font-size: 16px;
-  }
-
-  .cta-button {
-    padding: 12px 24px;
-    font-size: 15px;
   }
 
   .features {
