@@ -24,21 +24,6 @@ html, body {
   padding: 40px 30px;
 }
 
-header h1 {
-  font-family: 'Dela Gothic One', cursive;
-  font-size: 42px;
-  color: #f9d720;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-header h2 {
-  font-size: 26px;
-  color: #1a1a1a;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 .tos-content p {
   font-size: 16px;
   color: #333;
@@ -89,6 +74,37 @@ header h2 {
 .contact-email:hover {
   background-color: #ffe577;
 }
+
+.tos-wrapper header {
+  display: flex;
+  align-items: center;
+  padding: 24px 32px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  gap: 16px;
+}
+
+.tos-wrapper header img {
+  height: 42px;
+  width: auto;
+}
+
+.tos-wrapper header h2 {
+  font-family: 'Dela Gothic One', sans-serif;
+  font-size: 26px;
+  margin: 0;
+  color: #333;
+}
+
+
+@media (max-width: 600px) {
+  .tos-wrapper header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
 
 
 @media (max-width: 768px) {
